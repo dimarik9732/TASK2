@@ -161,7 +161,6 @@ int print_list(Node *list){
 	if(list != NULL)
 
 		{
-			printf("\nPrinted list\n");
 			while (pr_lst -> next != NULL)
 				{
 					printf("%s\n",pr_lst->data);
